@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400;1,600&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  
+}
+
+
+
+
+.navbar{
+  width: 91%;
+  height: 5%;
+  margin:auto;
+ 
+  
+}
+
+.sidebar-navigation .logo {
+  
+  width: 9%; 
+  height: 10%; 
+  line-height: 2.2rem; 
+  /*background-color: #646cc8;*/
+  
+  box-sizing: border-box;
+  border-radius: 0.1rem;
+  border: 7px solid #9fcbc3;
+  padding: 1rem;
+
+  
+}
+.logo{
+ color:rgb(251, 249, 249) ;
+ font-size: 120%;
+font-weight: 500;
+ letter-spacing: .1rem;
+ margin-top: 1rem;
+ margin-left:-3rem ;
+ float: left;
+
+ 
+}
+
+
+
+.MENU
+{
+  float: right;
+  list-style:none;
+  margin-top: 3%;
+  font-size: 90%;
+  font-weight:400;
+
+}
+
+.MENU li
+{
+  display:inline-flex;
+}
+
+
+
+
+.MENU li a
+{
+  background-color: rgb(255, 255, 255);
+  color: rgb(1, 1, 1);
+  text-decoration: none;
+  padding: .8rem 1.5rem;
+ 
+}
+
+ul li ul.dropdown li{
+  display: inline-flex;
+}
+
+ul li ul.dropdown{
+  width: 13%;
+  position: absolute;
+  z-index: 1;
+  display: none;
+
+}
+
+ul li:hover ul.dropdown{
+  margin-top: 3.2rem;
+  display:block ;
+}
+
+.MENU li a:hover
+{
+
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+box-shadow: .5rem .4rem 2rem ;
+border-radius: 3rem;
+
+}
+
+/*----------------------start of the content--------------------*/
+
+.main-hik{
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%),no-repeat center center fixed url(../main\ pic/hikkwall.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.home-hik{
+    padding: 180px 10%;
+    
+
+}
+.home-text-hik h1{
+
+    font-size:60px;
+    font-family: 'EB Garamond', serif;
+    line-height: 1;
+    color:rgb(255, 255, 255);
+    letter-spacing: 2px;
+    margin-bottom:70px ;
+   
+}
+
+
+
+.con-hik {
+    
+   padding: 4% 5% 5%;
+}
+.con-hik li{
+    font-family: 'Cinzel', serif;
+  font-size:24px;
+}
+
+.content-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 1px 44%;
+    padding: 15px 30px;
+    background: #dee7e9;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    transition: ease .70s;
+
+
+ }
+
+.content-btn:hover{
+    background:rgb(205, 226, 208);
+    transform: scale(1.1);
+}
+
+.hikkaduwa-beach{
+  
+   height: 40rem;
+   width: 48rem;
+
+}
+.LOCATION{
+    margin-bottom: 50px;
+   
+}
+
+.h-con{
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  margin-top: 1rem;
+}
+
+.loc{
+  margin-top: 3%;
+  margin-left: 10%;
+  width: 17rem;
+  height: 16rem;
+}
+.loc-details {
+   
+   float: right;
+   margin-top: 1%;
+   margin-right: 170px;
+   
+}
+
+.loc-details p{
+   margin-top: 12%;
+  
+}
+.loc-details li{
+   
+    
+    font-family: 'Cinzel', serif;
+    font-size: 23px;
+    font-weight: 500;
+ }
+
+ .book{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin: 1px 44% 5%;
+  padding: 15px 30px;
+  background: #4cc85a;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  transition: ease .90s;
+  text-decoration: none;
+
+
+}
+
+.book:hover{
+  background:rgb(106, 232, 125);
+  transform: scale(1.01);
+}
+ .more-pic{
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 25px;
+   
+}
+
+.more-pic img{
+  width: 15em;
+    height: 14em;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar-navigation .logo {
+    
+    width: 15%; 
+    height: 10%; 
+    line-height:1.5rem; 
+   background-color: #646cc8;
+    
+    
+
+  
+    
+}
+.logo{
+   color:rgb(255, 255, 255) ;
+   font-size: 60%;
+   margin-top: 0;
+   margin-left:0 ;
+
+}
+
+
+
+
+
+
+.MENU {
+  margin-left: 75px;
+    float: none;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+.MENU li {
+    display: block;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 1rem;
+}
+
+.MENU li a {
+    display: block;
+   background-color: #d4e3e3;
+    padding: 0.4rem 1rem;
+}
+
+
+
+ ul li ul.dropdown{
+    width: 100%;
+ 
+
+}
+
+ ul li:hover ul.dropdown{
+    margin-top:0.2rem;
+   
+}
+
+.MENU li a:hover
+{
+  
+    transform: scale(1.1); 
+
+}
+
+  .home-text-hik h1 {
+    margin-top: 3%;
+    font-size: 30px;
+  }
+
+  .content-btn {
+    margin: 3%  34% 3%;
+  }
+
+  .hikkaduwa-beach {
+    height: auto;
+    width: 100%;
+  }
+
+  .h-con{
+    margin: 3%;
+  }
+
+  .loc {
+    
+    width: 80%;
+   align-items: center;
+  }
+
+  .loc-details {
+    margin-right: 10%;
+  }
+
+  .more-pic {
+    flex-wrap: wrap;
+  }
+
+  .more-pic img {
+    width: 15em;
+    height: 14em;
+  }
+}
+
+
+@media screen and (max-width:320px) {
+  .sidebar-navigation .logo {
+  
+      width: 6rem; 
+      height: 10%; 
+     
+  }
+ 
+  .MENU {
+    margin-left: 60px;
+     
+  }
+
+  .MENU li {
+     
+      margin-left: 50px;
+      margin-right: 20px;
+     
+  }
+
+ 
+  ul li ul.dropdown{
+      width: 65%;
+    }
+  
+    
+ .con-hik li{
+  font-size: medium;
+ }
+    
+ .loc-details li{
+  font-size: medium;
+ }
+}
+
+
+/*--------------------scroll up btn ----------------------------*/
+html{
+    scroll-behavior: smooth;
+}
+
+.arrow-btn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9;
+
+}
+.arrow-btn:hover{
+    scale: 1.5;
+    transition: .6S;
+}
+.arrow-btn a{
+    height: 39px;
+    width: 37px;
+    text-align: center;
+    background: #1b1b1b;
+    display: block;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.arrow-btn a span{
+    color: #f2f2f2;
+    line-height: 39px;
+    font-size: 25px;
+}
+
+
+
+
+/*--------------------------------------------FOOTER------------------------------------------------------------*/
+.foot{
+   
+  
+    
+    background-color: #d6d4d4;
+     background-repeat:no-repeat;
+     background-size:cover;
+      color:rgb(0, 0, 0);
+     text-align: center;    
+     }
+
+ /*Positioning the references*/
+ .reference{
+     display: grid;
+     padding: 10px;
+ } 

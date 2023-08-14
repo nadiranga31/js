@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400;1,600&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  
+}
+
+.main{
+ 
+ background-color:#79aba1  ;
+  background-position: center;
+  background-size: cover;
+    max-width: 100%;
+  height: 20vh;
+
+  
+}
+
+
+
+
+.navbar{
+  width: 91%;
+  height: 5%;
+  margin:auto;
+ 
+  
+}
+
+.sidebar-navigation .logo {
+  
+  width: 9%; 
+  height: 10%; 
+  line-height: 2.2rem; 
+  /*background-color: #646cc8;*/
+  
+  box-sizing: border-box;
+  border-radius: 0.1rem;
+  border: 7px solid #9fcbc3;
+  padding: 1rem;
+
+  
+}
+.logo{
+ color:rgb(251, 249, 249) ;
+ font-size: 120%;
+font-weight: 500;
+ letter-spacing: .1rem;
+ margin-top: 1rem;
+ margin-left:-3rem ;
+ float: left;
+
+ 
+}
+
+
+
+.MENU
+{
+  float: right;
+  list-style:none;
+  margin-top: 3%;
+  font-size: 90%;
+  font-weight:400;
+
+}
+
+.MENU li
+{
+  display:inline-flex;
+}
+
+
+
+
+.MENU li a
+{
+  background-color: rgb(255, 255, 255);
+  color: rgb(1, 1, 1);
+  text-decoration: none;
+  padding: .8rem 1.5rem;
+ 
+}
+
+ul li ul.dropdown li{
+  display: inline-flex;
+}
+
+ul li ul.dropdown{
+  width: 13%;
+  position: absolute;
+  z-index: 1;
+  display: none;
+
+}
+
+ul li:hover ul.dropdown{
+  margin-top: 3.2rem;
+  display:block ;
+}
+
+.MENU li a:hover
+{
+
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+box-shadow: .5rem .4rem 2rem ;
+border-radius: 3rem;
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .main{
+ 
+    background: 0;  
+     background-position: 0;
+
+    
+     height: 0;
+   
+     
+   }
+  .sidebar-navigation .logo {
+  
+      width: 15%; 
+      height: 10%; 
+      line-height:1.5rem; 
+     background-color: #646cc8;
+      
+      
+
+    
+      
+  }
+  .logo{
+     color:rgb(255, 255, 255) ;
+     font-size: 60%;
+     margin-top: 0;
+     margin-left:0 ;
+
+  }
+  
+  
+
+
+  
+
+  .MENU {
+    margin-left: 75px;
+      float: none;
+      text-align: center;
+      margin-top: 1rem;
+ 
+  }
+
+  .MENU li {
+      display: block;
+      margin-left: 90px;
+      margin-right: 90px;
+      margin-bottom: 1rem;
+  }
+
+  .MENU li a {
+      display: block;
+     background-color: #d4e3e3;
+      padding: 0.4rem 1rem;
+  }
+  
+ 
+  
+   ul li ul.dropdown{
+      width: 100%;
+   
+  
+  }
+  
+   ul li:hover ul.dropdown{
+      margin-top:0.2rem;
+     
+  }
+  
+  .MENU li a:hover
+  {
+    
+      transform: scale(1.1); 
+  
+  }
+
+}
+
+@media screen and (max-width:320px) {
+  .sidebar-navigation .logo {
+  
+      width: 6rem; 
+      height: 10%; 
+     
+  }
+ 
+  .MENU {
+    margin-left: 60px;
+     
+  }
+
+  .MENU li {
+     
+      margin-left: 50px;
+      margin-right: 20px;
+     
+  }
+
+ 
+  ul li ul.dropdown{
+      width: 65%;
+    }
+  
+    
+ 
+    
+
+}
+
+
+/* -- Header -- */
+
+
+/* -- Header Single -- */
+
+.section-header-single {
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .section-header-single img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    display: block;
+    position: absolute;
+  }
+  
+  .section-header-single .overlay {
+    background: rgba(52, 50, 56, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .section-header-single .overlay .header-title,
+  .section-header-single .overlay .header-desc {
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    clear: both;
+  }
+  
+  .section-header-single .overlay .header-title h3 {
+    color: white;
+    font-size: 60px;
+    font-family: "Pacifico";
+  }
+  
+  .section-header-single .overlay .header-title p {
+    
+    color: rgb(255, 255, 255);
+    font-family: 'Cinzel', serif;
+    font-size:24px;
+    margin: 7% 3% 1%;
+    text-align: center;
+    
+  }
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  
+}
+
+.bg-img {
+  /* The image used 
+  background-image: url("./img/hbeach.jpg");
+*/
+  /* Control the height of the image */
+  min-height: 1000px;
+  width: 100%;
+  
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.containerr {
+  align-content: center;
+  right: 0;
+  margin: 20px;
+ 
+  height:fit-content;
+  padding: 16px;
+  background-color:rgb(201, 207, 195);
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Set a style for the submit button */
+.btn {
+  background-color:rgb(40, 44, 19);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.btn:hover{
+  color:#79aba1;
+}
+
+@viewport{
+	zoom:1.0%;
+	width: 100%;
+}
+
+@-ms-viewport{
+	width:extend-to zoom;
+	zoom:1.0;
+}
+  
+/*--------------------scroll up btn ----------------------------*/
+html{
+    scroll-behavior: smooth;
+}
+
+.arrow-btn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9;
+
+}
+.arrow-btn:hover{
+    scale: 1.5;
+    transition: .6S;
+}
+.arrow-btn a{
+    height: 39px;
+    width: 37px;
+    text-align: center;
+    background: #000000;
+    display: block;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+.arrow-btn a span{
+    color:#f2f2f2;
+    line-height:39px;
+    font-size:25px;
+}
+
+
+
+/*--------------------------------------------FOOTER------------------------------------------------------------*/
+.foot{
+   
+  
+    
+    background-color: #d6d4d4;
+     background-repeat:no-repeat;
+     background-size:cover;
+      color:rgb(0, 0, 0);
+     text-align: center;    
+     }
+
+ /*Positioning the references*/
+ .reference{
+     display: grid;
+     padding: 10px;
+ } 

@@ -1,0 +1,179 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bb{
+  background-color: #2ECC71;
+}
+ 
+.bb a{
+  
+  
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-decoration: none;
+ 
+  
+ 
+
+}
+
+h3 {
+   
+  
+
+    padding-bottom: 30px;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+h1 {
+   
+  background-color: #2ECC71;
+  line-height: 1em;
+  width: 250%;
+  text-align: center;
+   
+}
+
+ul.Header li {
+  display: inline;
+  font-size: 18px;
+
+
+}
+  
+   
+.Header li a{
+text-decoration: none;
+color: #000000;
+}
+
+body {
+   
+  font-family: Arial, sans-serif;
+  
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%),no-repeat center center fixed url(b2.jpeg);
+  background-position: center;
+  background-size: cover;
+
+  }
+
+h2 {
+  text-align: center;
+  padding: 20px 0%;
+
+
+}
+
+.card {
+  background-color: #f3f3f3;
+  border: 1px solid #000000;
+  padding: 6%;
+  margin: 3% 10%;
+  border-radius: 4px;
+  float: left;
+}
+
+.box1,
+.box2 {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.summary {
+  background-color: #f3f3f3;
+  border: 1px solid #000000;
+  border-radius: 1%;
+  padding: 3%;
+  margin:3% 7%;
+  float: right;
+}
+
+.user-details-table,
+.details-summary-table {
+  margin-bottom: 20px;
+}
+
+.user-details-table table,
+.details-summary-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-details-table td,
+.details-summary-table td {
+  padding: 10px;
+  border: 1px solid #000000;
+}
+
+.sub-head {
+  background-color: #d7d6d6;
+  font-weight: bold;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+.pay-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 20px auto;
+  text-align: center;
+  
+  
+}
+
+.pay-btn:hover {
+  background-color: #45a049;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .card,
+  .summary {
+    margin: 1% 5%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  ul.Header li {
+    display: block;
+    font-size: 16px;
+  }
+
+  .card,
+  .summary {
+    margin: 1% 3%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    line-height: 1.5em;
+    padding-bottom: 1em;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .card,
+  .summary {
+    margin: 1% 2%;
+    padding: 4%;
+  }
+}

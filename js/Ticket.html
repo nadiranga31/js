@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <link rel="stylesheet" href="Ticket.css">
+</head>
+<body>
+    <div class="bb">
+        <a href="../hikkaduwa.html" >Home </a>
+    <h3>Buy Tickets</h3></div>
+    
+
+
+
+    
+        <ul class="Header">
+          <li><a href="./Ticket.html"> Ticket/ </a></li>
+          
+        
+          <li><a href="./Details.html">  Details/</a></li>
+          
+          <li><a href="./Payment.html"> Payment/</a></li>
+           
+          <li><a href="./Confirmation.html"> Confirmation </a></li>
+          
+        </ul>
+    
+      
+
+
+    <div class="tik">
+
+
+      <div class="calender-body">
+        <div class="wrapper"><h2>When are you traveling?</h2>
+
+            <header>
+                <p class="today">August 2023</p>
+                <div class="figure">
+                    <span id="previous " class="symbols">&#10094;</span>
+                    <span id="next-m" class="symbols">&#10095;</span>
+                </div>
+            </header>
+            <div class="calender">
+                <ul class="weeks">
+                    <li>Sun</li>
+                    <li>Mon</li>
+                    <li>Tue</li>
+                    <li>Wed</li>
+                    <li>Thu</li>
+                    <li>Fri</li>
+                    <li>Sat</li>
+                </ul>
+                <ul class="date"></ul>
+            </div>
+        </div>
+    </div>
+
+   
+      
+      <section class="pricing-table">
+        <h4>Pricing Lists</h4>
+        <div class="p-table">
+            <table class="table">
+                
+                    <tr>
+                        <th>Guests</th>
+                        <th>Normal</th>
+                        <th>Peak</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td >Foreigner Adult</td>
+                            <td >10 USD</td>
+                            <td >13 USD</td>
+                        </tr>
+                        <tr>
+                            <td >Foreigner Child</td>
+                            <td >5 USD</td>
+                            <td >8 USD</td>
+                        </tr>
+                        <tr>
+                            <td >SL Adult</td>
+                            <td >4 USD</td>
+                            <td >6 USD</td>
+                        </tr>
+                        <tr>
+                            <td >SL Child</td>
+                            <td >2 USD</td>
+                            <td >3 USD</td>
+                        </tr>
+                        <tr>
+                            <td >Infant (Under 4 Years)</td>
+                            <td >FREE</td>
+                            <td >FREE</td>
+                        </tr>
+                    </tbody>
+            </table>
+        </div>
+    </section> 
+
+  
+      <br>
+      <br>
+        <form action="action" id="quantity" class="quantity" >
+
+            <div class="dur">
+                <label >Time Slot:</label>
+                 <select class="select-time" id="select-timeslot" >
+         
+                   <option selected class="selected">Select a Time</option>
+                   <option>07.00 am - 08.00 am</option>
+                   <option>08.00 am - 09.00 am</option>
+                   <option>09.00 am - 10.00 am</option>
+                   <option class="peak">10.00 am - 11.00 am (Peak)</option>
+                   <option class="peak">11.00 am - 12.00 am (Peak)</option>
+                   <option class="peak">12.00 am - 01.00 pm (Peak)</option>
+                   <option>01.00 pm - 02.00 pm</option>
+                   <option>02.00 pm - 03.00 pm</option>
+                   <option class="peak">03.00 pm - 04.00 pm (Peak)</option>
+                   <option class="peak">04.00 pm - 05.00 pm (Peak)</option>
+                   <option class="peak">05.00 pm - 06.00 pm (Peak)</option>
+         
+                 </select>
+                 </div>
+        
+          <div class="tiket">
+            <p>SL Adults(Above 15 yrs):</p>
+            <input type="number" value="0" min="0" class="guest-input" id="sl-adults-store">
+        </div>
+
+        <div class="tiket">
+            <p>SL Child(5 to 14 yrs):</p>
+            <input type="number" value="0" min="0" id="sl-child-Store">
+        </div>
+
+        <div class="tiket">
+            <p>Foreign Adults(Above 15 yrs):</p>
+            <input type="number" value="0" min="0" id="foreign-adults-Store">
+        </div>
+
+        <div class="tiket">
+            <p>Foreign Child(5 to 14 yrs):</p>
+            <input type="number" value="0" min="0" id="foreign-child-Store">
+        </div>
+
+        <div class="tiket">
+            <p>Infants(Under 4 yrs):</p>
+            <input type="number" value="0" min="0" id="infant-Store">
+        </div>
+
+       
+
+          </form>
+
+
+    </div>
+
+  <form id="ticket-form">
+    <div class="summary-table">
+      <h1>Summary</h1>
+      <table class="table">
+          <tr>
+              <td>Date</td>
+              <td><span id="s-date"> Selected Date </span></td>
+          </tr>
+          <tr>
+              <td>Time</td>
+              <td><span id="s-time">08.00 am - 09.00 am</span></td>
+          </tr>
+          <tr>
+              <td>Duration</td>
+              <td>1 hr (01: Normal, 00: Peak)</td>
+          </tr>
+          <tr class="sub-heading">
+              <td>Tickets</td>
+              <td>Charges</td>
+          </tr>
+          <tr id="sladult" class="row">
+              <td>0 SL Adult</td>
+              <td>$0</td>
+          </tr>
+          <tr id="slchild" class="row">
+              <td>0 SL Child</td>
+              <td>$0</td>
+          </tr>
+          <tr id="foreignadult">
+              <td>0 Foreigner Adult</td>
+              <td>$0</td>
+          </tr>
+          <tr id="foreignchild" class="row">
+              <td>0 Foreigner Child</td>
+              <td>$0</td>
+          </tr>
+          <tr id="infant" class="row">
+              <td>Infants</td>
+              <td>$0</td>
+          </tr>
+          <tfoot>
+              <tr>
+                  <td>Total Payables</td>
+                  <td id="totalPayable">$0.00</td>
+              </tr>
+          </tfoot>
+      </table>
+  </div>
+      <br>
+   </form>
+   <button type="submit" class="submit-btn">Confirm with Purchase</button>
+
+    <script src="Ticket.js"></script>
+   
+
+
+
+</body>
+</html>

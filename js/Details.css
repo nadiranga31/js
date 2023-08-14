@@ -1,0 +1,135 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bb{
+  background-color: #2ECC71;
+}
+ 
+.bb a{
+  
+  
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-decoration: none;
+ 
+  
+ 
+
+}
+
+h3 {
+   
+  
+
+    padding-bottom: 30px;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+h1 {
+ 
+background-color: #2ECC71;
+  line-height: 1.2em;
+  border-radius: 4%;
+  width: 100%;
+  text-align: center;
+
+  
+}
+
+
+ul.Header li {
+  display: inline;
+  font-size: 18px;
+
+
+}
+  
+   
+.Header li a{
+text-decoration: none;
+color: #000000;
+}
+body {
+   
+  font-family: Arial, sans-serif;
+  
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%),no-repeat center center fixed url(b2.jpeg);
+  background-position: center;
+  background-size: cover;
+
+  }
+
+.form {
+  background-color: #f3f3f3;
+  padding: 3%;
+  margin: 5% 10% ;
+  float: left;
+  
+}
+
+.box1, .telbox, select {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #dfdbdb;
+  border-radius: 4px;
+}
+
+.code{
+  width: 8%;
+}
+
+.submit-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 15px 20px;
+  margin-left: 13%;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 3px;
+  
+  
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+
+}
+
+.summary {
+  background-color: #f3f3f3;
+  padding: 3%;
+  margin: 5% 11% ;
+  float: right;
+}
+
+.user-details-table, .summary-table {
+  margin-bottom: 20px;
+}
+
+.user-details-table table, .summary-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-details-table td, .summary-table td {
+  padding: 10px;
+  border: 1px solid #000000;
+}
+
+.sub-head {
+  background-color: #d7d6d6;
+  font-weight: bold;
+}
+
+tfoot td {
+  font-weight: bold;
+}

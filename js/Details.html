@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Details.css">
+    <title>Details</title>
+</head>
+<body>
+
+    <div class="bb">
+        <a href="../hikkaduwa.html" >Home </a>
+        <h3>Buy Tickets</h3>
+    </div>
+    
+
+ <br>
+    
+ <ul class="Header">
+    <li><a href="./Ticket.html"> Ticket/ </a></li>
+    
+  
+    <li><a href="./Details.html">  Details/</a></li>
+    
+    <li><a href="./Payment.html"> Payment/</a></li>
+     
+    <li><a href="./Confirmation.html"> Confirmation </a></li>
+    
+  </ul>
+
+        <br><br>
+        <section class="form">
+                <fieldset>
+                    <br><br>
+                    <h2>Enter your details</h2>
+                    <br><br>
+                    <form action="details-form">
+                        <label >Full Name</label><br>
+                        <input class="box1" type="text"  name="fname" id="fname" placeholder="Enter Full Name" required>
+                    
+                        <br><br>
+                        <label >Mobile Number</label><br>
+                    <select name="code" id="code" class="code">
+                        <option>+94</option>
+                        <option>+97</option>
+                        <option>+43</option>
+                        <option>+93</option>
+                        <option>+61</option>
+                        <option>+54</option>
+                        <option>+11</option>
+                        <option>+24</option>
+                        <option>+39</option>
+                        <option>+6</option>
+                        <option>+71</option>
+                        <option>+15</option>
+                    </select>
+                    <input type="tel"  class="telbox" name="phone" id="phone" placeholder="Enter Mobile Number"  required><br><br>
+                        
+                    <label >Email</label><br>
+                    <input class="box1" type="email" name="email" id="email" placeholder="example@mail.com" required><br><br>
+                        
+                    <label >Confirm Email</label><br>
+                    <input class="box1" type="email" name="email" id="confirm-email" placeholder="Confirm E-Mail" required><br>
+                        
+                        <br><br>
+                        
+                        <label for="gender">Gender</label><br>
+                    <select id="gender">
+                        <option selected class="selected">Select Gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select><br>
+                        
+                        <br><br>
+
+                        
+                    <button type="submit" id="submitBtn" class="submit-btn">Confirm with Purchase</button>
+                    </form> 
+                </fieldset>
+        </section>
+  
+        <div class="summary" id="summarySection">
+            <div class="user-details-table">
+                <table class="user-details">
+                    <tr>
+                        <td>Name</td>
+                        <td><span id="user-name"> Your Name </span></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile</td>
+                        <td id="user-mobile"> Mobile Number </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td id="user-email"> Your E-mail </td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td id="user-gender"> Male/Female </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="summary-table">
+                <table class="sum">
+                    <tr>
+                        <td>Date</td>
+                        <td> Current Date </td>
+                    </tr>
+                    <tr>
+                        <td>Time</td>
+                        <td>08.00 am - 09.00 am</td>
+                    </tr>
+                    <tr>
+                        <td>Duration</td>
+                        <td>1 hr (01: Normal, 00): Peak</td>
+                    </tr>
+                    
+                    <tr class="sub-head">
+                        <td>Tickets</td>
+                        <td>Charges</td>
+                    </tr>
+                    <tr class="hide" id="sl-adults-row">
+                        <td data-ticket-type="SL Adult">1 SL Adult</td>
+                        <td>$0</td>
+                    </tr >
+                    <tr id="sl-child-row" class="hide">
+                        <td data-ticket-type="SL Child">1 SL Child</td>
+                        <td>$0</td>
+                    </tr>
+                    <tr class="hide" id="foreign-adults-row">
+                        <td data-ticket-type="Foreign Adult">1 Foreigner Adult</td>
+                        <td>$0</td>
+                    </tr>
+                    <tr class="hide" id="foreign-child-row">
+                        <td data-ticket-type="Foreign Child">1 Foreigner Child</td>
+                        <td>$0</td>
+                    </tr>
+                    <tr class="hide" id="infant-row">
+                        <td data-ticket-type="Infant">Infants</td>
+                        <td>$0</td>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                            <td>Total Payables</td>
+                            <td id="totalPayables">$0</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+    
+        </div>
+
+  
+      
+
+ <script src="Details.js"></script>   
+</body>
+</html>
